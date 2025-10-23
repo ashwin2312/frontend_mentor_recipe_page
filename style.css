@@ -1,0 +1,114 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 0;
+    font-size: 16px;
+    background-color: hsl(30, 54%, 90%);
+}
+.main{
+    /* border: 1px solid hsl(24, 5%, 18%); */
+    /* padding: 0 1rem; */
+    background-color: white;
+    /* border-radius: 1rem; */
+}
+span{
+    font-weight: 700;
+    color: hsl(24, 5%, 18%);
+}
+
+.image-section{
+    width: 20rem;
+}
+img{
+    width: 100%;
+}
+.text-section{
+    width: 18rem;
+    padding: 0 1rem;
+    color: hsl(24, 5%, 18%);
+}
+.preperation{
+    background-color: hsl(330, 100%, 98%);
+    padding:0.1rem 0.9rem;
+    border-radius: 0.5rem;
+    /* line-height: 1.5em; */
+}
+.preperation h2{
+    color: hsl(332, 51%, 32%);
+    font-family: 'Outfit', sans-serif;
+}
+.preperation li::marker{
+    color: hsl(332, 51%, 32%);
+    /* margin-right: 10px; */
+}
+h2{
+    color:hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+}
+
+.nutrition, .instructions{
+    margin-top: 1.8rem;
+    border-top: 1px solid grey;
+}
+.instructions li::marker, .ingredients li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+.nutrition-lists{
+    list-style-type: none;
+    /* border: 1px solid hsl(30, 54%, 90%); */
+    padding: 1rem;
+}
+.nutrition-lists li{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 2.5rem; */
+    padding: 0.5rem ;
+    border-bottom: 1px solid hsl(30, 54%, 90%);
+    /* width: 100%; */
+}
+.nutrient{
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+.content{
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+#last{
+    border-bottom: none;
+}
+ul{
+    line-height: 1.5em;
+}
+
+li{
+    padding-left: 1rem;
+    /* border: 1px solid black; */
+    margin-left: -1rem;
+}
+
+
+@media (min-width:1024px){
+    .image-section{
+        width: 50rem;
+    }
+    .text-section{
+        width: 48rem;
+    }
+    .main{
+        border-radius: 1rem;
+    }
+    img{
+        border-radius: 1rem ;
+    }
+    .main{
+        padding: 2rem;
+    }
+    .instructions ol{
+        line-height: 1.5em;
+    }
+}
